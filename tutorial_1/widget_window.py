@@ -1,8 +1,8 @@
 from PyQt6.QtWidgets import QApplication, QWidget
 import sys
 
-# short example of executing GUI windows (using widget as example.
-# other item includes QMainWindow and QDialog)
+# short example of executing GUI windows as widget
+
 app = QApplication(sys.argv)
 window = QWidget()
 
