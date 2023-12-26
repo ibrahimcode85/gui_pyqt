@@ -1,4 +1,6 @@
 # tutorial from https://www.pythonguis.com/tutorials/pyqt6-creating-your-first-window/
+# on creating windows.
+
 from typing import Any
 from PyQt6.QtCore import QSize, Qt
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget 
@@ -29,7 +31,7 @@ app = QApplication([])
 #window = QPushButton("Push Me.")
 #window = QMainWindow()
 
-window = MainWindow() #using our define subclass with customised property instead of default QMainWindow
+window = MainWindow() #using our define subclass with customized property instead of default QMainWindow
 window.show() #show the window, something like print
 
 # start the event loop
